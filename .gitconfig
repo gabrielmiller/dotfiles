@@ -1,6 +1,8 @@
 [user]
-	email = gmiller2007@gmail.com
-	name = L Gabriel Miller
+    email = gmiller2007@gmail.com
+    name = L Gabriel Miller
+[alias]
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 [color]
     branch = auto
     diff = auto
