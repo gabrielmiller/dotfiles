@@ -11,6 +11,7 @@ set softtabstop=4
 set number
 set ruler
 set wrap
+set hls
 let python_highlight_all=1
 syntax on
 colorscheme blackboard
