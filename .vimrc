@@ -15,6 +15,7 @@ let python_highlight_all=1
 syntax on
 colorscheme blackboard
 hi statusline ctermbg=yellow ctermfg=black cterm=bold term=NONE
+set hls
 "hi Comment ctermfg=DarkGray
 "hi Constant ctermfg=Magenta
 "hi Normal ctermbg=Black
