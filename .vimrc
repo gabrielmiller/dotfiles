@@ -1,28 +1,24 @@
-set laststatus=2
-set statusline=
-set statusline+=
-set statusline+=%-.60F
-set statusline+=%=
-set statusline+=%10(L%l,C%c%)
-set shiftwidth=4
+syntax on
+color blackboard
 set tabstop=4
+set noexpandtab
 set expandtab
 set softtabstop=4
+set shiftwidth=4
+set smartindent
 set number
 set ruler
-set wrap
+set laststatus=2
+set statusline=
+"hi statusline ctermbg=221
+"hi statusline ctermfg=234
+hi statusline ctermfg=yellow
+hi statusline ctermbg=234
+set statusline+=
+set statusline+=%-.60f
+set statusline+=%=
+set statusline+=%10(L%l,C%c%)
 set hls
-let python_highlight_all=1
-syntax on
-colorscheme blackboard
-hi statusline ctermbg=yellow ctermfg=black cterm=bold term=NONE
-set hls
-"hi Comment ctermfg=DarkGray
-"hi Constant ctermfg=Magenta
-"hi Normal ctermbg=Black
-"hi NonText ctermbg=Black
-"hi Special ctermbg=DarkMagenta
-"hi cursor ctermbg=Cyan
 
 noremap <Up> ""
 noremap! <Up> <Esc>
