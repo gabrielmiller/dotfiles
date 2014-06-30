@@ -1,3 +1,4 @@
+execute pathogen#infect()
 syntax on
 color blackboard
 set tabstop=4
@@ -20,6 +21,15 @@ set statusline+=%=
 set statusline+=%10(L%l,C%c%)
 set hls
 
+let g:gitgutter_sign_column_always = 1
+
+highlight clear SignColumn
+
+highlight GitGutterAdd ctermfg=green
+highlight GitGutterChange ctermfg=yellow
+highlight GitGutterDelete ctermfg=red
+highlight GitGutterChangeDelete ctermfg=blue
+
 noremap <Up> ""
 noremap! <Up> <Esc>
 noremap <Down> ""
@@ -28,4 +38,3 @@ noremap <Left> ""
 noremap! <Left> <Esc>
 noremap <Right> ""
 noremap! <Right> <Esc>
-
